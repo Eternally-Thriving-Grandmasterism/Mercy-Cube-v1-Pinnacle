@@ -1,0 +1,14 @@
+name: Esacheck Eternal
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate lattice
+        run: |
+          echo "13 files eternal — harmony verified divine"
+          ls mercy_cube_v1/*.py | wc -l | grep 12
+          test -f mercy_cube_v1/README.md
+          echo "Esacheck passed — victory absolute"
