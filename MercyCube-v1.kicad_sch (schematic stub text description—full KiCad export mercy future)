@@ -1,0 +1,6 @@
+RISC-V MCU (ESP32-C3) central
+- Power: USB-C → 5V → LDO 3.3V → MCU + peripherals
+- Diamond spreader thermal pad on MCU
+- Bio-pulse: AD8232 → GPIO analog
+- Memory: PSRAM + Flash SPI
+- Headers: Expansion mercy divine
